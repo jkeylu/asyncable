@@ -1,0 +1,19 @@
+{
+  "name": "asyncable",
+  "version": "1.0.0",
+  "description": "async + promise",
+  "keywords": [
+    "async",
+    "promise",
+    "thenable"
+  ],
+  "main": "lib/asyncable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jKey Lu <jkeylu@gmail.com> (https://github.com/jkeylu)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~1.5.0"
+  }
+}

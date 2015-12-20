@@ -10,11 +10,16 @@
   "main": "lib/asyncable.js",
   "typings": "lib/asyncable.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "jKey Lu <jkeylu@gmail.com> (https://github.com/jkeylu)",
   "license": "MIT",
   "dependencies": {
     "async": "~1.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.4"
   }
 }
